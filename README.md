@@ -1,6 +1,6 @@
 # The Paintbrush
 
-Small keyboard designs for folks who cannot use 'traditional' keyboard designs.
+Small keyboard designs for those who cannot use 'traditional' keyboard designs.
 
 ## Licensing
 

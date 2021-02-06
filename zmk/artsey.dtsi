@@ -187,7 +187,7 @@
 };
 
 /*****************************************
- * Standard ARTSEY layer definitions
+ * Standard ARTSEY layer definitions !!!!!!!!!! FOR RIGHT HANDED USE !!!!!!!!!!
  * These SHOULD BE CHANGED and adjusted according to your boards transform
  * Use "&none" to fill in gaps
  * This section is commented to avoid conflicts with downstream board definitions
@@ -196,21 +196,21 @@
 // 	keymap {
 // 		compatible = "zmk,keymap";
 // 		base {
-// 			label = "Base";
+// 			label = "ARTSEY";
 // 			bindings = <
 // 				&layer_parentheticals_kp LAYER_ID_PARENTHETICALS A    &kp R     &kp T     &layer_numbers_kp LAYER_ID_NUMBERS S
 // 				&layer_symbols_kp LAYER_ID_SYMBOLS E                  &kp Y     &kp I     &layer_navigation_kp LAYER_ID_NAVIGATION O
 // 			>;
 // 		};
 // 		numbers {
-// 			label = "Numbers";
+// 			label = "Number";
 // 			bindings = < /* TODO: NEED TO SETUP Fn LEADER KEY(S) */
 // 				&layer_parentheticals_kp LAYER_ID_PARENTHETICALS N1   &kp N2    &kp N3    &layer_base_sl LAYER_ID_BASE LAYER_ID_F_ONE_SIX
 // 				&layer_symbols_kp LAYER_ID_SYMBOLS N4                 &kp N5    &kp N6    &layer_navigation_sl LAYER_ID_NAVIGATION LAYER_ID_F_SEVEN_TWELVE
 // 			>;
 // 		};
 // 		symbols {
-// 			label = "Symbols";
+// 			label = "Symbol";
 // 			bindings = <
 // 				&layer_parentheticals_none LAYER_ID_PARENTHETICALS 0  &kp BSLH  &kp SEMI  &layer_numbers_kp LAYER_ID_NUMBERS GRAVE
 // 				&layer_base_none LAYER_ID_BASE 0                      &kp MINUS &kp EQUAL &layer_navigation_none LAYER_ID_NAVIGATION 0
@@ -251,4 +251,65 @@
 // 				&none                                                 &none     &none     &none
 // 			>;
 // 		};
+// };
+
+/*****************************************
+ * Standard ARTSEY layer definitions !!!!!!!!!! FOR LEFT HANDED USE !!!!!!!!!!
+ * These SHOULD BE CHANGED and adjusted according to your boards transform
+ * Use "&none" to fill in gaps
+ * This section is commented to avoid conflicts with downstream board definitions
+ *****************************************/
+// / {
+// 	keymap {
+// 		compatible = "zmk,keymap";
+// 		base {
+// 			label = "ARTSEY";
+// 			bindings = <
+// 				&layer_numbers_kp LAYER_ID_NUMBERS S                             &kp T     &kp R     &layer_parentheticals_kp LAYER_ID_PARENTHETICALS A
+// 				&layer_navigation_kp LAYER_ID_NAVIGATION O                       &kp I     &kp Y     &layer_symbols_kp LAYER_ID_SYMBOLS E
+// 			>;
+// 		};
+// 		numbers {
+// 			label = "Number";
+// 			bindings = <
+// 				&layer_base_sl LAYER_ID_BASE LAYER_ID_F_ONE_SIX                  &kp N3    &kp N2    &layer_parentheticals_kp LAYER_ID_PARENTHETICALS N1
+// 				&layer_navigation_sl LAYER_ID_NAVIGATION LAYER_ID_F_SEVEN_TWELVE &kp N6    &kp N5    &layer_symbols_kp LAYER_ID_SYMBOLS N4
+// 			>;
+// 		};
+// 		symbols {
+// 			label = "Symbol";
+// 			bindings = <
+// 				&layer_numbers_kp LAYER_ID_NUMBERS GRAVE                         &kp SEMI  &kp BSLH  &layer_parentheticals_none LAYER_ID_PARENTHETICALS 0
+// 				&layer_navigation_none LAYER_ID_NAVIGATION 0                     &kp EQUAL &kp MINUS &layer_base_none LAYER_ID_BASE 0
+// 			>;
+// 		};
+// 		parentheticals {
+// 			label = "Paren";
+// 			bindings = <
+// 				&layer_numbers_kp LAYER_ID_NUMBERS LBRC                          &kp LPAR  &kp RPAR  &layer_base_none LAYER_ID_BASE 0
+// 				&layer_navigation_kp LAYER_ID_NAVIGATION RBRC                    &kp LBKT  &kp RBKT  &layer_symbols_none LAYER_ID_SYMBOLS 0
+// 			>;
+// 		};
+// 		navigation {
+// 			label = "Nav";
+// 			bindings = <
+// 				&layer_numbers_none LAYER_ID_NUMBERS 0                           &kp HOME  &kp UP    &layer_parentheticals_kp LAYER_ID_PARENTHETICALS END
+// 				&layer_base_none LAYER_ID_BASE LEFT                              &kp DOWN  &kp RIGHT &layer_symbols_kp LAYER_ID_SYMBOLS 0
+// 			>;
+// 		};
+// 		f_one_to_six{
+// 			label = "F1-F6";
+// 			bindings = <
+// 				&layer_numbers_none LAYER_ID_NUMBERS 0                           &kp F3    &kp F2    &layer_parentheticals_kp LAYER_ID_PARENTHETICALS F1
+// 				&layer_navigation_none LAYER_ID_NAVIGATION 0                     &kp F6    &kp F5    &layer_symbols_kp LAYER_ID_SYMBOLS F4
+// 			>;
+// 		};
+// 		f_seven_to_twelve {
+// 			label = "F7-F12";
+// 			bindings = <
+// 				&layer_numbers_none LAYER_ID_NUMBERS 0                           &kp F9    &kp F8    &layer_parentheticals_kp LAYER_ID_PARENTHETICALS F7
+// 				&layer_navigation_none LAYER_ID_NAVIGATION 0                     &kp F12   &kp F11   &layer_symbols_kp LAYER_ID_SYMBOLS F10
+// 			>;
+// 		};
+// 	};
 // };

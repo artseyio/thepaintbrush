@@ -1,14 +1,18 @@
 # The Paintbrush
 
-Small keyboard designs for those who cannot or prefer not use 'traditional' keyboard designs.
+A small keyboard design for those who cannot or prefer not use 'traditional' keyboard designs.
 
-*This project aims to create keyboard designs that are adaptable and flexible. Especially for those with disabilities, those who cannot type on traditional keyboads and those that prefer not use traditional keyboards.*
+*This project aims to create a small keyboard design that is adaptable and flexible. Especially for those with disabilities, those who cannot type on traditional keyboads and those that prefer not use traditional keyboards.*
+
+The current version of The Painbrush is [version 4](/hardware/v4).
+
+![Version 4 Rendering](/hardware/v4/small-paintbrush-hotswap.png)
 
 ## What
 
-A collection of open hardware designs that can be built free of charge for non-commercial use. These designs are meant to be used with systems like [ARTSEY.IO](https://www.artsey.io/), [ASETNIOP](http://asetniop.com/) and others.
+A small keyboard hardware design that can be built free of charge for non-commercial use. The design is meant to be used with systems like [ARTSEY.IO](https://www.artsey.io/).
 
-We also work to have our hardware designs supported by well known open source keyboard firmware projects to make it easier to setup and use these designs.
+We also work to have our hardware supported by well known open source keyboard firmware projects to make them easier to setup and use.
 
 ## Why
 
@@ -16,7 +20,7 @@ There are few keyboard options for those with hand disabilities. The few commerc
 
 ## Who
 
-The founder has had their left hand immobilized for 6 weeks and their right hand injured badly enough to cause typing problems on traditional keyboards for 2 weeks.
+Just a human who has had their left hand immobilized for 6 weeks and their right hand injured badly enough to cause typing problems on traditional keyboards for 2 weeks.
 
 ## Licensing
 

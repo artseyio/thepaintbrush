@@ -4,9 +4,13 @@ A small keyboard design for those who cannot or prefer not use 'traditional' key
 
 *This project aims to create a small keyboard design that is adaptable and flexible. Especially for those with disabilities, those who cannot type on traditional keyboads and those that prefer not use traditional keyboards.*
 
+![Version 4 Rendering](hardware/v4/small-paintbrush-hotswap.png)
+
+## Versions
+
 The current version of The Painbrush is [version 4](hardware/v4).
 
-![Version 4 Rendering](hardware/v4/small-paintbrush-hotswap.png)
+*Please refer to the version folders for additional details on building as well as bill of materials.*
 
 ## What
 

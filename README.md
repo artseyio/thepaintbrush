@@ -12,6 +12,24 @@ The current version of The Painbrush is [version 4](hardware/v4).
 
 *Please refer to the version folders for additional details on building as well as bill of materials.*
 
+## PCB/Plate Ordering
+
+### PCB
+
+If you'd like to order a PCB you'll need either the main KiCAD file (the ones ending in .pro) or the gerber files (the zip files in the gerber folders). Most PCB makers will ask for ```gerber files``` which will be the zip files in the appropriate ```gerber``` folder. In each hardware revision's folder there will be bottom plate PCB files (KiCAD and gerber) as well as the main PCB files (KiCAD and gerber).
+
+We have been able to confirm both [OSH Park](https://oshpark.com/) and [JLCPCB](https://jlcpcb.com/) can make the paintbrush PCBs.
+
+JLCPCB is usually pretty cheap, even with a minimum order quanity of 5 PCBs. In many cases you can get 5 paintbrush PCBs for under $10 USD if you don't select super fast service or additional options.
+
+### Bottom Plate
+
+The bottom plate can be made by a number of different companies and there is a file in each hardware revision that ends in ```.step```.
+
+We have been able to confirm [ShapeWays](https://shapeways.com/) has been a very reliable source for on demand 3d printing. They offer a wide range of materials at different price points.
+
+You can also get the bottom plate made from a company that does laser cutting but we have not heard which companies may be the best option from the community yet.
+
 ## What
 
 A small keyboard hardware design that can be built free of charge for non-commercial use. The design is meant to be used with systems like [ARTSEY.IO](https://www.artsey.io/).
@@ -37,3 +55,5 @@ Unless otherwise stated the non source code and non hardware design contents of 
 ## Commercial Licencing
 
 If you're interested in commercial licencing of our designs, please contact KemoNine for details. Their e-mail can be found in the git log. When contacting KemoNine please include (at a minimum) your name, your company/store's website, how you plan to sell the designs and why you'd like to sell the designs.
+
+*Please note: this applies to ANY sales that are not 'at cost' or would result in a profit (online stores, group buys, sales to friends, etc)*

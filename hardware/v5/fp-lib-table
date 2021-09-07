@@ -3,4 +3,5 @@
   (lib (name promicro)(type KiCad)(uri ${KIPRJMOD}/lib/ProMicroKiCad/promicro.pretty)(options "")(descr ""))
   (lib (name lib)(type KiCad)(uri ${KIPRJMOD}/lib)(options "")(descr ""))
   (lib (name keyswitches)(type KiCad)(uri ${KIPRJMOD}/lib/keyswitches.pretty)(options "")(descr ""))
+  (lib (name small-paintbrush)(type KiCad)(uri ${KIPRJMOD}/small-paintbrush.pretty)(options "")(descr ""))
 )

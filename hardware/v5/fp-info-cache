@@ -1,4 +1,4 @@
-19193118705174937
+19201276546593607
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82894,6 +82894,13 @@ kailh,choc
 4
 2
 keyswitches
+MX_Choc_Hotswap
+
+
+0
+12
+2
+keyswitches
 SW_MX
 MX-style keyswitch
 MX,cherry,gateron,kailh
@@ -82953,6 +82960,34 @@ promicro
 ProMicro
 Pro Micro footprint
 promicro ProMicro
+0
+24
+24
+small-paintbrush
+promicro
+
+
+0
+24
+24
+small-paintbrush
+promicro-doublesided
+
+
+0
+48
+24
+small-paintbrush
+promicro-doublesided-holes
+
+
+0
+0
+0
+small-paintbrush
+promicro-singlesided
+
+
 0
 24
 24

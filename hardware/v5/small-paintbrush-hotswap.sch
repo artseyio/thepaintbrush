@@ -30,7 +30,7 @@ U 1 1 5FAD17EA
 P 3950 4500
 F 0 "KEY1" H 3950 4600 50  0000 C CNN
 F 1 "SW_Push" H 3950 4450 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 3950 4700 50  0001 C CNN
+F 2 "keyswitches:MX_Choc_Hotswap" H 3950 4700 50  0001 C CNN
 F 3 "~" H 3950 4700 50  0001 C CNN
 	1    3950 4500
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 5FAD3B43
 P 3950 4750
 F 0 "KEY5" H 3950 4850 50  0000 C CNN
 F 1 "SW_Push" H 3950 4700 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 3950 4950 50  0001 C CNN
+F 2 "keyswitches:MX_Choc_Hotswap" H 3950 4950 50  0001 C CNN
 F 3 "~" H 3950 4950 50  0001 C CNN
 	1    3950 4750
 	1    0    0    -1  
@@ -56,7 +56,7 @@ U 1 1 5FAE06DA
 P 4700 4500
 F 0 "KEY2" H 4700 4600 50  0000 C CNN
 F 1 "SW_Push" H 4700 4450 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 4700 4700 50  0001 C CNN
+F 2 "keyswitches:MX_Choc_Hotswap" H 4700 4700 50  0001 C CNN
 F 3 "~" H 4700 4700 50  0001 C CNN
 	1    4700 4500
 	1    0    0    -1  
@@ -67,7 +67,7 @@ U 1 1 5FAE06E0
 P 4700 4750
 F 0 "KEY6" H 4700 4850 50  0000 C CNN
 F 1 "SW_Push" H 4700 4700 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 4700 4950 50  0001 C CNN
+F 2 "keyswitches:MX_Choc_Hotswap" H 4700 4950 50  0001 C CNN
 F 3 "~" H 4700 4950 50  0001 C CNN
 	1    4700 4750
 	1    0    0    -1  
@@ -82,7 +82,7 @@ U 1 1 5FAE3778
 P 5450 4500
 F 0 "KEY3" H 5450 4600 50  0000 C CNN
 F 1 "SW_Push" H 5450 4450 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 5450 4700 50  0001 C CNN
+F 2 "keyswitches:MX_Choc_Hotswap" H 5450 4700 50  0001 C CNN
 F 3 "~" H 5450 4700 50  0001 C CNN
 	1    5450 4500
 	1    0    0    -1  
@@ -93,7 +93,7 @@ U 1 1 5FAE377E
 P 5450 4750
 F 0 "KEY7" H 5450 4850 50  0000 C CNN
 F 1 "SW_Push" H 5450 4700 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 5450 4950 50  0001 C CNN
+F 2 "keyswitches:MX_Choc_Hotswap" H 5450 4950 50  0001 C CNN
 F 3 "~" H 5450 4950 50  0001 C CNN
 	1    5450 4750
 	1    0    0    -1  
@@ -108,7 +108,7 @@ U 1 1 5FAE576B
 P 6200 4500
 F 0 "KEY4" H 6200 4600 50  0000 C CNN
 F 1 "SW_Push" H 6200 4450 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 6200 4700 50  0001 C CNN
+F 2 "keyswitches:MX_Choc_Hotswap" H 6200 4700 50  0001 C CNN
 F 3 "~" H 6200 4700 50  0001 C CNN
 	1    6200 4500
 	1    0    0    -1  
@@ -119,7 +119,7 @@ U 1 1 5FAE5771
 P 6200 4750
 F 0 "KEY8" H 6200 4850 50  0000 C CNN
 F 1 "SW_Push" H 6200 4700 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional_reversible" H 6200 4950 50  0001 C CNN
+F 2 "keyswitches:MX_Choc_Hotswap" H 6200 4950 50  0001 C CNN
 F 3 "~" H 6200 4950 50  0001 C CNN
 	1    6200 4750
 	1    0    0    -1  
@@ -375,7 +375,7 @@ U 1 1 601D5A5E
 P 2650 4250
 F 0 "U1" H 2650 5287 60  0000 C CNN
 F 1 "ProMicro" H 2650 5181 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro" H 2750 3200 60  0001 C CNN
+F 2 "small-paintbrush:promicro" H 2750 3200 60  0001 C CNN
 F 3 "" H 2750 3200 60  0000 C CNN
 	1    2650 4250
 	1    0    0    -1  
@@ -384,22 +384,41 @@ Text GLabel 3350 3700 2    50   Input ~ 0
 RST
 Text GLabel 4350 3800 0    50   Input ~ 0
 RST
+Text GLabel 3350 5250 2    50   Input ~ 0
+RST
 $Comp
-L power:GND #PWR0103
-U 1 1 60325990
-P 1950 5300
-F 0 "#PWR0103" H 1950 5050 50  0001 C CNN
-F 1 "GND" V 1955 5172 50  0000 R CNN
-F 2 "" H 1950 5300 50  0001 C CNN
-F 3 "" H 1950 5300 50  0001 C CNN
-	1    1950 5300
-	0    1    1    0   
+L promicro:ProMicro U2
+U 1 1 603259AA
+P 2650 5800
+F 0 "U2" H 2650 6837 60  0000 C CNN
+F 1 "ProMicro" H 2650 6731 60  0000 C CNN
+F 2 "small-paintbrush:promicro" H 2750 4750 60  0001 C CNN
+F 3 "" H 2750 4750 60  0000 C CNN
+	1    2650 5800
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 5350 1950 5300
-Connection ~ 1950 5300
-Wire Wire Line
-	1950 5300 1950 5250
+Text GLabel 1950 5550 0    50   Input ~ 0
+SCL
+Text GLabel 1950 5450 0    50   Input ~ 0
+SDA
+Text GLabel 3350 6150 2    50   Input ~ 0
+R2C4
+Text GLabel 3350 6050 2    50   Input ~ 0
+R2C3
+Text GLabel 3350 5750 2    50   Input ~ 0
+R1C4
+Text GLabel 3350 5650 2    50   Input ~ 0
+R1C3
+Text GLabel 3350 5950 2    50   Input ~ 0
+R2C2
+Text GLabel 3350 5850 2    50   Input ~ 0
+R2C1
+Text GLabel 3350 5550 2    50   Input ~ 0
+R1C2
+Text GLabel 3350 5450 2    50   Input ~ 0
+R1C1
+Text GLabel 3350 5350 2    50   Input ~ 0
+VCC
 $Comp
 L power:GND #PWR0104
 U 1 1 60325999
@@ -411,39 +430,20 @@ F 3 "" H 3350 5150 50  0001 C CNN
 	1    3350 5150
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3350 5350 2    50   Input ~ 0
-VCC
-Text GLabel 3350 5450 2    50   Input ~ 0
-R1C1
-Text GLabel 3350 5550 2    50   Input ~ 0
-R1C2
-Text GLabel 3350 5850 2    50   Input ~ 0
-R2C1
-Text GLabel 3350 5950 2    50   Input ~ 0
-R2C2
-Text GLabel 3350 5650 2    50   Input ~ 0
-R1C3
-Text GLabel 3350 5750 2    50   Input ~ 0
-R1C4
-Text GLabel 3350 6050 2    50   Input ~ 0
-R2C3
-Text GLabel 3350 6150 2    50   Input ~ 0
-R2C4
-Text GLabel 1950 5450 0    50   Input ~ 0
-SDA
-Text GLabel 1950 5550 0    50   Input ~ 0
-SCL
+Wire Wire Line
+	1950 5300 1950 5250
+Wire Wire Line
+	1950 5350 1950 5300
+Connection ~ 1950 5300
 $Comp
-L promicro:ProMicro U2
-U 1 1 603259AA
-P 2650 5800
-F 0 "U2" H 2650 6837 60  0000 C CNN
-F 1 "ProMicro" H 2650 6731 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro" H 2750 4750 60  0001 C CNN
-F 3 "" H 2750 4750 60  0000 C CNN
-	1    2650 5800
-	1    0    0    -1  
+L power:GND #PWR0103
+U 1 1 60325990
+P 1950 5300
+F 0 "#PWR0103" H 1950 5050 50  0001 C CNN
+F 1 "GND" V 1955 5172 50  0000 R CNN
+F 2 "" H 1950 5300 50  0001 C CNN
+F 3 "" H 1950 5300 50  0001 C CNN
+	1    1950 5300
+	0    1    1    0   
 $EndComp
-Text GLabel 3350 5250 2    50   Input ~ 0
-RST
 $EndSCHEMATC

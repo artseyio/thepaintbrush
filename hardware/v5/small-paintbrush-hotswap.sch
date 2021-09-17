@@ -446,4 +446,15 @@ F 3 "" H 1950 5300 50  0001 C CNN
 	1    1950 5300
 	0    1    1    0   
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61374C0C
+P 5250 6150
+F 0 "H1" H 5350 6196 50  0000 L CNN
+F 1 "MountingHole" H 5350 6105 50  0000 L CNN
+F 2 "small-paintbrush:mounting-holes" H 5250 6150 50  0001 C CNN
+F 3 "~" H 5250 6150 50  0001 C CNN
+	1    5250 6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

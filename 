@@ -1,0 +1,197 @@
+[33mcommit 3d06260dafa0419675640a68a4ef650d45b81ce3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Fri Sep 17 13:17:04 2021 -0400
+
+    fix missing trace and gerbers for v5
+
+[33mcommit d24145a754271dce8143ff2bea20118ba135a25d[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Wed Sep 15 19:20:54 2021 -0400
+
+    update v5 plate to allow access to reset button and be notched to allow room for the oled on plate builds
+
+[33mcommit 6d6311b5d7a1145bde40f0576ceb6eb75e634a1e[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Mon Sep 6 23:15:00 2021 -0400
+
+    v5 of the paintbrush with choc and mx hot swap switches (pcb size changed)
+
+[33mcommit 357c230e22671d1f91f0d6ff9a1ee55fa559b91a[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Sat Jul 31 00:18:54 2021 -0400
+
+    Add initial v5 hardware
+
+[33mcommit a91279ba24eed71161be954bc0c6199f7450274d[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Thu Jul 15 19:10:44 2021 -0400
+
+    Add stl file for the hand 'strap' case
+
+[33mcommit 2ff2c91e3be1b3133a88152473dd80b2c2416923[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Wed Jun 30 17:32:08 2021 -0400
+
+    Add additional information on how to get pcbs/bottom plates made
+
+[33mcommit 6bbc0ffee8bc6ad37781da42fe2a27f2cd4f9ca3[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Sun Jun 6 14:06:06 2021 -0400
+
+    Update v4 documentation and main readme ; includes quick ref and basic build instructions
+
+[33mcommit 064aa81b90a28dde2e39f6e90f22cd7542cb8d09[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Sat May 8 17:26:16 2021 -0400
+
+    Update gerber files for v4 pcb
+
+[33mcommit a30b82ce3dfbde61ac8c8c62a0898d74f367fa6c[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Sat Apr 17 13:16:55 2021 -0400
+
+    Remove unnecessary files ; fix v4 bottom plate size
+
+[33mcommit 21ced9762f6dd71e1c6f3bb3157290fd9d150c76[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Tue Mar 23 19:46:51 2021 -0400
+
+    Update v4 hardware to include stand off holes and move the reset button / power switch to better locations
+
+[33mcommit 82f0218a960ff307f37f55729de90c5911760cb4[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Thu Mar 18 21:49:27 2021 -0400
+
+    Rev v4 to add tap holes
+
+[33mcommit 93c7ce0b61ffdbb489328b799baa167e049f871a[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Mon Mar 8 20:16:29 2021 -0500
+
+    Add dxf file for v4 base
+
+[33mcommit 6fa1fae537a65362d729779dc7a5ecc24854fc85[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Mon Mar 8 14:24:17 2021 -0500
+
+    Fixup links
+
+[33mcommit 275a790def23295e5fe3b25bf3abee1a2a4c0a07[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Mon Mar 8 14:22:34 2021 -0500
+
+    Update v4 readme for additional details
+
+[33mcommit 6533f52e054fb25c3fcdbe907db207754563b194[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Mon Mar 8 14:22:23 2021 -0500
+
+    Update main readme for clarity and additional information
+
+[33mcommit 1a47d90f7d4c351c69d1741f569bea5678a00a63[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Mon Mar 8 13:50:54 2021 -0500
+
+    Convert v4 bottom plate to a step file for easier 3d printing or CNC
+
+[33mcommit df5c03f77a12fce5d7f94ac1d391d5c5791e89ce[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Sun Mar 7 14:43:22 2021 -0500
+
+    Remove artsey/zmk files as they have been moved to artsey's main zmk repo
+
+[33mcommit d0fdb3ae7d5b61f99028c205869fab7701a0a1ab[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Sun Mar 7 14:42:09 2021 -0500
+
+    Add v4 hardware rendering
+
+[33mcommit cbd97ae6cf532624a094cbbc5d630e4550583dd3[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Sun Mar 7 14:40:41 2021 -0500
+
+    Add readme to v3 hardware designs
+
+[33mcommit a9465ad10c8649856644c304c5127db6f71b5a1a[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Sun Mar 7 14:40:31 2021 -0500
+
+    Import v4 hardware designs
+
+[33mcommit bb55457bef724342eeb75488e598518d2ce0b6a5[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Sat Feb 20 19:17:13 2021 -0500
+
+    Add rendering of v3 hardware
+
+[33mcommit dfd18ea16442f45ac131f123c3251e066d1a3674[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Sat Feb 20 19:15:24 2021 -0500
+
+    Add version 3 of pcb
+
+[33mcommit a018faa9e59f60d4c24f96bc8c56f17c0fe27621[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Sat Feb 6 14:56:35 2021 -0500
+
+    Update zmk artsey.dtsi per upstream work
+
+[33mcommit 3fe32f1a33f4bd42dc3d67c5eefe0841d4a844ac[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Sat Feb 6 14:55:05 2021 -0500
+
+    Add README to the artsey layout directory
+
+[33mcommit f807a1f7cd5d015d1aab8d7c6a77ef303377db8e[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Sat Feb 6 14:50:06 2021 -0500
+
+    Add artsey.io cheat sheets (left and right handed)
+
+[33mcommit 254c39504a00dbe640ca1566f9747f412cdb21ab[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Fri Feb 5 08:30:25 2021 -0500
+
+    Import zmk ARTSEY.IO keymap implementation
+
+[33mcommit ddbccfb8c3e8dd9a060240a5a8c43789adefff3a[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Fri Feb 5 07:52:04 2021 -0500
+
+    Import paintbrush v2 hardware design
+
+[33mcommit 24536a211a08294373d6e12ab430f8265abafba9[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Fri Feb 5 07:29:33 2021 -0500
+
+    Import paintbrush v1 hardware design
+
+[33mcommit feeb99872903f5a41300f889cbcf185247e804ef[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Fri Feb 5 07:25:32 2021 -0500
+
+    Add initial hardware readme
+
+[33mcommit 18f3e7970fba51ff84f63d352ab6927fcf2a4f89[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Fri Feb 5 07:23:57 2021 -0500
+
+    Prep git ignore for kicad import
+
+[33mcommit 29e2b921851924c2981decf551efa973becd0478[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Fri Feb 5 07:23:24 2021 -0500
+
+    Fill out readme with more specifics about the project
+
+[33mcommit aa0c9961b27ac10f47220fbc8e393906f2ec2a13[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Fri Feb 5 06:34:58 2021 -0500
+
+    Fix verbiage
+
+[33mcommit 270b994032df5208365cdf9875b3d2a0a9cc1764[m
+Author: KemoNine <mcrosson@kemonine.info>
+Date:   Fri Feb 5 06:33:23 2021 -0500
+
+    Initial repo creation

@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/lib/ProMicroKiCad/promicro_library/promicro.lib)(options "")(descr ""))
   (lib (name diode-choc)(type Legacy)(uri /home/steven/gitproj/fusion/choc/diode-choc.lib)(options "")(descr ""))
+  (lib (name small-paintbrush-hotswap-rescue)(type Legacy)(uri ${KIPRJMOD}/small-paintbrush-hotswap-rescue.lib)(options "")(descr ""))
 )

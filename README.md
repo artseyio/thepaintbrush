@@ -4,11 +4,11 @@ A small keyboard design for those who cannot or prefer not use 'traditional' key
 
 *This project aims to create a small keyboard design that is adaptable and flexible. Especially for those with disabilities, those who cannot type on traditional keyboads and those that prefer not use traditional keyboards.*
 
-![Version 4 Rendering](hardware/v4/small-paintbrush-hotswap.png)
+![Version 5 Rendering](hardware/v5/small-paintbrush-hotswap.png)
 
 ## Versions
 
-The current version of The Painbrush is [version 4](hardware/v4).
+The current version of The Painbrush is [version 5](hardware/v5).
 
 *Please refer to the version folders for additional details on building as well as bill of materials.*
 
@@ -21,6 +21,14 @@ If you'd like to order a PCB you'll need either the main KiCAD file (the ones en
 We have been able to confirm both [OSH Park](https://oshpark.com/) and [JLCPCB](https://jlcpcb.com/) can make the paintbrush PCBs.
 
 JLCPCB is usually pretty cheap, even with a minimum order quanity of 5 PCBs. In many cases you can get 5 paintbrush PCBs for under $10 USD if you don't select super fast service or additional options.
+
+### Switch Plate
+
+The switch plate can be made by a number of different companies and there is a file in each hardware revision that ends in ```.step```.
+
+We have been able to confirm [ShapeWays](https://shapeways.com/) and [JLCPCB](https://jlcpcb.com/) have been a very reliable source. They offer a wide range of materials at different price points.
+
+You can also get the switch plate made from a company that does laser cutting but we have not heard which companies may be the best option from the community yet.
 
 ### Bottom Plate
 

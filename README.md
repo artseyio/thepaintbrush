@@ -12,6 +12,10 @@ The current version of The Painbrush is [version 5](hardware/v5).
 
 *Please refer to the version folders for additional details on building as well as bill of materials.*
 
+## Firmware
+
+QMK and ZMK reference code can be found at [qmk-artsey](https://github.com/artseyio/qmk-artsey/) and [zmk-artsey](https://github.com/artseyio/zmk-artsey/) respectively.
+
 ## PCB/Plate Ordering
 
 ### PCB
